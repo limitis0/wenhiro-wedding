@@ -1,0 +1,27 @@
+.btnContainer {
+  z-index: 9999;
+  position: relative;
+  .playBtn {
+    background: none;
+    border: none;
+
+    padding: 0;
+    .btnImg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .active {
+      opacity: 1;
+    }
+  }
+
+  .playBtn:hover {
+    cursor: pointer;
+  }
+}

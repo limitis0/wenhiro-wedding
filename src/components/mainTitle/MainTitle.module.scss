@@ -1,0 +1,26 @@
+.general {
+  color: var(--deep-khaki);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7.2px;
+  text-decoration: none;
+}
+.start {
+  text-align: start;
+}
+.center {
+  text-align: center;
+}
+.isUnderLineTrue {
+  text-decoration: underline;
+}
+.isUnderLineFalse {
+  text-decoration: none;
+}
+@media screen and (max-width: 1160px) {
+  .general {
+    letter-spacing: 4.2px;
+  }
+}

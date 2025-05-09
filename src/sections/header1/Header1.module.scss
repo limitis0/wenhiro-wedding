@@ -1,0 +1,59 @@
+.header1Container {
+  width: 100%;
+  height: 80vh;
+
+  position: relative;
+
+  .header1Photo {
+    height: 90vh;
+    width: 60vh;
+    background: url('/photos/01.jpg') 50% / cover no-repeat;
+
+    position: absolute;
+    left: -8px;
+    top: -40px;
+  }
+  .header1Text {
+    height: 100%;
+    margin-left: 70vh;
+    margin-right: 5vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+
+    .mainTitle {
+    }
+
+    .subTitle {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+@media screen and (max-width: 1160px) {
+  .header1Container {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    .header1Photo {
+      height: 150vw;
+      width: 100vw;
+      background: url('/photos/01.jpg') 50% / cover no-repeat;
+      left: -8px;
+      top: -40px;
+    }
+    .header1Text {
+      margin: 150vw 0 0 0;
+      width: 100%;
+
+      margin-left: 0;
+      margin-right: 0;
+
+      align-items: center;
+      .mainTitle {
+      }
+    }
+  }
+}

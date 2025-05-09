@@ -1,0 +1,45 @@
+.dressCodeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 5vw;
+  justify-content: center;
+  align-items: center;
+
+  .colorCardContainer {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+
+    .colorCard {
+      width: 180px;
+      height: 360px;
+      border: 1px solid var(--deep-khaki);
+    }
+  }
+  .colorCardContainer div:nth-child(5),
+  .colorCardContainer div:nth-child(6) {
+    border: 1px solid black;
+  }
+  // .colorCardContainer div:nth-child(6) {
+  //   border: 1px solid var(--warm-beige);
+  // }
+}
+@media screen and (max-width: 1160px) {
+  .dressCodeContainer {
+    .colorCardContainer {
+      width: min-content;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 16px 16px;
+      justify-items: center;
+
+      .colorCard {
+        width: 103px;
+        height: 206px;
+      }
+    }
+  }
+}

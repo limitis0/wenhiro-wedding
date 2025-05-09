@@ -1,0 +1,51 @@
+.general {
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-decoration: none;
+  white-space: pre-line;
+}
+.isSmall {
+  font-size: 16px;
+}
+.isDefault {
+  font-size: 20px;
+}
+.start {
+  text-align: start;
+}
+.center {
+  text-align: center;
+}
+.dark {
+  color: var(--deep-khaki);
+}
+.light {
+  color: var(--light-taupe);
+}
+.isUnderLineTrue {
+  text-decoration: underline;
+}
+.isUnderLineFalse {
+  text-decoration: none;
+}
+
+.isItalic {
+  transform: skewX(-10deg);
+  display: inline-block; /* 避免影響行內文字佈局 */
+}
+.isItalicDefault {
+  transform: none;
+  display: inline-block; /* 避免影響行內文字佈局 */
+}
+
+.isWeirdFont {
+  font-family: 'jf-jinxuan-3.1';
+}
+@media screen and (max-width: 1160px) {
+  .isSmall {
+    letter-spacing: 0px;
+    font-size: 12px;
+  }
+}

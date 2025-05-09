@@ -1,0 +1,29 @@
+.photoGalaryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 8vw;
+
+  .photoRollContainer {
+    .photosSwiper {
+      width: 100%;
+      height: 19.5vw;
+      --swiper-navigation-color: var(--light-taupe);
+      --swiper-navigation-sides-offset: 20px;
+      object-fit: contain;
+
+      .photoSlide {
+        object-fit: contain;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1160px) {
+  .photoGalaryContainer {
+    .photoRollContainer {
+      .photosSwiper {
+        height: 56vw;
+      }
+    }
+  }
+}

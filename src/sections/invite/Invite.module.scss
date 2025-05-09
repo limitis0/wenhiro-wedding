@@ -1,0 +1,80 @@
+.inviteContainer {
+  margin: 0 10vw;
+  display: flex;
+  gap: 15vw;
+
+  .invitePhotoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .singlePhotoContainer {
+      width: 25vw;
+      display: flex;
+
+      .invitePhoto {
+        width: 20vw;
+        height: 13vw;
+      }
+      .invitePhoto1 {
+        background: url('/photos/05.jpg') lightgray 50% / cover no-repeat;
+      }
+      .invitePhoto2 {
+        background: url('/photos/06.jpg') lightgray 50% / cover no-repeat;
+      }
+      .invitePhoto3 {
+        background: url('/photos/07.jpg') lightgray 50% / cover no-repeat;
+      }
+    }
+    .right {
+      justify-content: flex-end;
+    }
+    .left {
+      justify-content: flex-start;
+    }
+  }
+
+  .inviteTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    .inviteTitle {
+      margin-bottom: 60px;
+    }
+    .inviteContent {
+      margin-bottom: 24px;
+    }
+  }
+}
+@media screen and (max-width: 1160px) {
+  .inviteContainer {
+    flex-direction: column;
+    gap: 36px;
+
+    .invitePhotoContainer {
+      gap: 12px;
+
+      .singlePhotoContainer {
+        width: 80vw;
+
+        .invitePhoto {
+          width: 75vw;
+          height: 48.75vw;
+        }
+      }
+    }
+    .inviteTextContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .inviteTitle {
+        margin-bottom: 24px;
+      }
+      .inviteContent {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "countdown": ["D", "H", "M", "S"],
+  "header1": [
+    "Hirohito Hayashi",
+    "✕",
+    "Wen-Chien Lee",
+    "We tied the knot",
+    "Thank you for sharing this special moment with us"
+  ],
+  "header2": [],
+  "intro": {
+    "wen": ["李玟芊", "06.17🐔INFP", "liquidwatercontent"],
+    "hiro": ["林博仁", "08.01🐴ISTJ", "hirolikesmilktea"]
+  },
+  "invite": ["Save the Date", "2025.06.28 (Sat)", "12:00 PM"],
+  "map": [
+    "Event Location",
+    "香色 XIANG SE",
+    "No.1-2, Hukou St., Zhongzheng Dist., Taipei City",
+    "MRT Chiang Kai-Shek Memorial Hall Station Exit 7\n\r(5 minutes walk)",
+    "No wedding gifts are required",
+    "Your presence is the greatest gift we could receive"
+  ],
+  "schedule": [
+    "Schedule",
+    "12:00",
+    "Please be seated",
+    "12:30",
+    "Luncheon",
+    "03:00",
+    "Farewell"
+  ],
+  "dressCode": ["Dress Code"],
+  "photoGalary": ["Photo Album"],
+  "attendanceForm": [
+    "Guest Information",
+    "Yes",
+    "No",
+    "Name of Main Attendee",
+    "Name of Accompanying Person",
+    "Total number",
+    "Restrictions",
+    ["Beef", "Duck", "Fish", "Egg/Milk", "Raw Fish/Meet"],
+    "Currently Pregnant",
+    ["Yes", "No"],
+    "Other Restrictions",
+    "Messages",
+    "Send",
+    "Sent!",
+    [
+      "Please Enter Name",
+      "Any dietary restrictions or health concerns (e.g., pregnancy)?",
+      "Please Enter"
+    ],
+    "Will you be our guest?",
+    ["Beverage", "Wine Pairing", "Non-alcoholic"]
+  ]
+}

@@ -1,0 +1,14 @@
+.btnContainer {
+  width: 30px;
+  height: 30px;
+  z-index: 9999;
+
+  .btn {
+    width: 100%;
+    height: 100%;
+    background: url('/backBtn.png') 50% / cover no-repeat;
+  }
+}
+.btnContainer:hover {
+  cursor: pointer;
+}

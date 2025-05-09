@@ -1,0 +1,16 @@
+.languageBtnContainer {
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  margin-right: 236px;
+}
+@media screen and (max-width: 1160px) {
+  .languageBtnContainer {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 8vh;
+    gap: 8px;
+  }
+}

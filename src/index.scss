@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'jf-jinxuan-3.1';
+  font-weight: 400;
+  src: url('/fonts/jf-jinxuan-3.1-book.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'jf-jinxuan-3.1';
+  font-weight: 500;
+  src: url('/fonts/jf-jinxuan-3.1-medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'jf-jinxuan-3.1';
+  font-weight: 700;
+  src: url('/fonts/jf-jinxuan-3.1-bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'creamfont-3.1';
+  src: url('/fonts/creamfont-3.1.woff2') format('woff2');
+}
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Marcellus+SC&display=swap');
+:root {
+  /* color */
+  --white: #ffffff;
+  --off-white: #f8f5f2;
+  --warm-beige: #eed9c4;
+  --light-taupe: #bfaea3;
+  --deep-khaki: #8c7a6b;
+  --dark-blue: #011638;
+  background-color: var(--off-white);
+
+  /* font */
+  font-family: 'jf-jinxuan-3.1', 'creamfont-3.1', 'Klee One';
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+input {
+  font-family: 'jf-jinxuan-3.1', 'creamfont-3.1', 'Klee One';
+}

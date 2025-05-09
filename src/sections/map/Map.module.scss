@@ -1,0 +1,34 @@
+.mapContainer {
+  margin: 0 25vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  .mapContent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .embedMap {
+    width: 100%;
+    height: 30vh;
+    border: 0;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .mapContainer {
+    margin: 0 10vw;
+    gap: 24px;
+    .mapContent {
+      .btmText {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .embedMap {
+      height: 40vh;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.countdownContainer {
+  width: 212px;
+  height: 30px;
+  flex-shrink: 0;
+  background: var(--white, #fff);
+  padding: 2px 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+@media screen and (max-width: 1160px) {
+  .countdownContainer {
+    width: max-content;
+  }
+}

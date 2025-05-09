@@ -1,0 +1,126 @@
+.introContainer {
+  margin: 0 15vw;
+  height: max-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 94px;
+  .introCard {
+    position: relative;
+
+    .introPhoto {
+      width: 30vw;
+      height: 45vw;
+    }
+    .hiroPhoto {
+      background: url(/photos/03.jpg) 50% / cover no-repeat;
+    }
+    .wenPhoto {
+      background: url(/photos/04.jpg) 50% / cover no-repeat;
+    }
+    .introTextContainer {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      justify-content: flex-end;
+
+      .introText {
+        background: var(--white, #fff);
+        width: 40vw;
+        height: 60px;
+        padding-left: 12px;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .hiroTextContainer {
+      right: 0;
+      top: 25vw;
+    }
+    .wenTextContainer {
+      left: 0;
+      top: 25vw;
+    }
+  }
+  .wenCard {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .mainTitleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+
+    .mainTitleItem {
+      width: 25%;
+    }
+    .mainTitleUp {
+      display: flex;
+      justify-content: center;
+      padding-right: 60%;
+    }
+    .mainTitleDown {
+      display: flex;
+      justify-content: center;
+      padding-left: 60%;
+    }
+  }
+}
+@media screen and (max-width: 1160px) {
+  .introContainer {
+    margin: 0;
+    margin-bottom: 20vh;
+    gap: 36px;
+
+    .introCard {
+      .introPhoto {
+        width: 80vw;
+        height: 120vw;
+      }
+
+      .introTextContainer {
+        gap: 8px;
+
+        .introText {
+          background: var(--white, #fff);
+          width: 70vw;
+          height: 45px;
+          padding-left: 12px;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .hiroTextContainer {
+        right: 0;
+        top: 105vw;
+      }
+      .wenTextContainer {
+        left: 0;
+        top: 105vw;
+      }
+    }
+    .wenCard {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .mainTitleContainer {
+      .mainTitleItem {
+        width: 50%;
+      }
+      .mainTitleUp {
+        // display: flex;
+        justify-content: flex-start;
+        padding-right: 30%;
+      }
+      .mainTitleDown {
+        // display: flex;
+        justify-content: flex-end;
+        padding-left: 30%;
+      }
+    }
+  }
+}
